@@ -7,8 +7,11 @@ Code converted from Active Oberon to Component Pascal using OberonParser tool ht
 Library X25519 is a port of C# library https://github.com/HirbodBehnam/X25519-CSharp.
 
 TLS implementation now supports TLS v1.2. After port it was slightly modified:
+
 	1. added support for modern Elliptic Curve Diffie Hellman key exchange
+
 	2. support for TLS extensions like SNI
+	
 	3. bug fixes of original code
 
 You can use ciphers and hashes and other classes in your code. But do not use tls implementation directly now. Right way to use TLS is do it like described in CommStreams documentation for TCP protocol, but instead of  CommTCP name use CryptoTLSStream
