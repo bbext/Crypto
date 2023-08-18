@@ -1,10 +1,10 @@
 This is a compilation of the
 - Port of some cryptography modules of ETH Oberon/Aos/A2 System (named "A2" in the following)
 - X25519 implementation by Hirbod Behnam
-- All other modules(GCM, TLS AEAD) writen by Anton Shelin
+- All other modules and modifications(GCM, TLS ECDHE, TLS AEAD) writen by Anton Shelin
 
 Nearly all parts of this subsystem belong to the ETH A2 System, exceptions are the files: 
-"CommStreams", "Compat", "CompatDebug", "CompatTests", "FileStreams", "StdLogStream".
+"X25519", "Gcm", "FieldElement".
 
 ----
 
